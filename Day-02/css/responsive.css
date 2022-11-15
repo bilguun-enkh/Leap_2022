@@ -1,0 +1,84 @@
+body {
+    background-color: pink;
+}
+
+h2 {}
+
+.container {
+    max-width: 100%;
+    margin: auto;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    body {
+        background-color: red;
+
+    }
+
+    #xxl,
+    #l,
+    #m,
+    #s,
+    #xs {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    body::after {
+        background-color: green;
+        content: "992px";
+    }
+
+    #xxl,
+    #xl,
+    #m,
+    #s,
+    #xs {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: brown;
+    }
+
+    #xxl,
+    #xl,
+    #l,
+    #s,
+    #xs {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    body {
+        background-color: grey;
+    }
+
+    #xxl,
+    #xl,
+    #l,
+    #s,
+    #xs {
+        display: none;
+    }
+}
+@media only screen and (max-width: 0px) {
+    body {
+        background-color: white;
+    }
+
+    #xxl,
+    #xl,
+    #l,
+    #s,
+    #xs {
+        display: none;
+    }
+}
