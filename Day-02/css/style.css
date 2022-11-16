@@ -1,38 +1,10 @@
 * {
     box-sizing: border-box;
 }
-
-img {
-    width: 100px;
-}
-
-.div1 {
-    width: 200px;
-    background-color: white;
-    padding: 10px;
-    border-radius: 50%;
-    transition: width 1s, border-radius 0.5s;
-}
-
-body {
-    background-color: bisque;
-}
-
-.div1:hover {
-    width: 400px;
-    border-radius: 50px;
-}
-input:hover {
-    width: 400px;
-}
-input {
-    border: none;
-    font-size: 30px;
-    width: 250px;
-    height: 150px;
-    /* background-image: url(..//magnifyer.png);
+div {
+    background-image: url(../magnifyer.png);
     background-size: cover;
-    background-repeat: no-repeat; */
-    padding-left: 200px;
-    transition: width 1s;
+    background-position: center;
+    width: 300px;
+    height: 100px;
 }

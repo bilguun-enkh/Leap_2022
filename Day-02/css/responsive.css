@@ -9,6 +9,13 @@ h2 {}
     margin: auto;
 }
 
+#xl,
+#l,
+#m,
+#s,
+#xs {
+    opacity: 0;
+}
 
 @media only screen and (max-width: 1200px) {
     body {
@@ -21,15 +28,17 @@ h2 {}
     #m,
     #s,
     #xs {
-        display: none;
+        opacity: 0;
+    }
+    #xl {
+        opacity: 1;
     }
 
 }
 
 @media only screen and (max-width: 992px) {
-    body::after {
+    body {
         background-color: green;
-        content: "992px";
     }
 
     #xxl,
@@ -37,7 +46,10 @@ h2 {}
     #m,
     #s,
     #xs {
-        display: none;
+        opacity: 0;
+    }
+    #l {
+        opacity: 1;
     }
 
 }
@@ -52,7 +64,10 @@ h2 {}
     #l,
     #s,
     #xs {
-        display: none;
+        opacity: 0;
+    }
+    #m {
+        opacity: 1;
     }
 }
 
@@ -64,11 +79,15 @@ h2 {}
     #xxl,
     #xl,
     #l,
-    #s,
+    #m,
     #xs {
-        display: none;
+        opacity: 0;
+    }
+    #s {
+        opacity: 1;
     }
 }
+
 @media only screen and (max-width: 0px) {
     body {
         background-color: white;
