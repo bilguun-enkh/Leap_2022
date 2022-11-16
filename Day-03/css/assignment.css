@@ -1,12 +1,14 @@
 .ballons img {
     border-radius: 18px;
 }
+
 body {
     margin: 0;
     width: 1280px;
     margin: auto;
     max-width: 100%;
 }
+
 /* @media screen and (min-width: 769px) and (max-width: 814) {
     .ballons img {
         width: 100%;
@@ -19,25 +21,27 @@ img {
 .ballons {
     margin-bottom: 100px;
 }
+
 .ballons img {
     min-width: 200px
 }
+
 .city {
     display: flex;
-    margin-bottom: 100px;
-    
 }
+
 .row {
     display: flex;
-
 }
+
 .column {
     display: flex;
     flex-direction: column;
 }
+
 .city img {
     width: 15%;
-    height: 200px;
+    height: 150px;
     border-radius: 18px;
 }
 
@@ -51,10 +55,11 @@ img {
     padding-left: 30px;
     width: 450px;
 }
+
 aside {
     background-color: rgb(205, 202, 202);
     float: right;
     border-radius: 18px;
-    width: 500px;
+    width: 200px;
     padding: 25px;
 }
