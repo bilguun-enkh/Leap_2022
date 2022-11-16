@@ -1,14 +1,60 @@
 .ballons img {
     border-radius: 18px;
 }
-@media screen and (min-width: 769px) and (max-width: 814) {
+body {
+    margin: 0;
+    width: 1280px;
+    margin: auto;
+    max-width: 100%;
+}
+/* @media screen and (min-width: 769px) and (max-width: 814) {
     .ballons img {
         width: 100%;
     }
+} */
+img {
+    object-fit: cover;
+}
+
+.ballons {
+    margin-bottom: 100px;
+}
+.ballons img {
+    min-width: 200px
+}
+.city {
+    display: flex;
+    margin-bottom: 100px;
+    
+}
+.row {
+    display: flex;
+
+}
+.column {
+    display: flex;
+    flex-direction: column;
 }
 .city img {
-    float: left;
     width: 15%;
     height: 200px;
     border-radius: 18px;
+}
+
+.city h2 {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.city p {
+    display: inline-block;
+    padding-left: 30px;
+    width: 450px;
+}
+aside {
+    background-color: rgb(205, 202, 202);
+    float: right;
+    border-radius: 18px;
+    width: 500px;
+    padding: 25px;
 }
