@@ -5,3 +5,31 @@
 .astro {
     width: 650px;
 }
+
+.profilepic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.footer p {
+    margin: 0;
+    padding: 0;
+}
+
+.link a {
+    text-decoration: none;
+}
+
+.link p {
+    padding-left: 1.5rem;
+}
+
+.top {
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    color: #fff;
+    background: #000;
+    border-radius: 100px;
+}
