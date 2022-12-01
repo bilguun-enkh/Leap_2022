@@ -101,10 +101,7 @@
 // console.log(str.toUpperCase())
 // console.log(str.toLowerCase())
 
-// let firstName = "John"
-// let fullName = firstName.concat(" ", 'Smith')
-// console.log(fullName)
-// console.log(firstName)
+
 
 // let char = (number.substr(0, 2))
 
@@ -112,16 +109,23 @@
 // console.log(otherNum)
 
 
-// console.log(Number("abc"))
-// console.log(Number.isInteger(Number('abc')))
-// console.log(Number('12345678'))
-// console.log(Number.isInteger(Number('12345678')))
-
 // if (!Number.isInteger(Number(char)) && Number.isInteger(Number(otherNum)) && number.length == 10) {
 //     console.log("Correct")
 // } else {
 //     console.log("Error")
 // }
+
+
+// let firstName = "John"
+// let fullName = firstName.concat(" ", 'Smith')
+// console.log(fullName)
+// console.log(firstName)
+
+// console.log(Number("abc"))
+// console.log(Number.isInteger(Number('abc')))
+// console.log(Number('12345678'))
+// console.log(Number.isInteger(Number('12345678')))
+
 
 let phoneNumber = prompt("Please enter your phone number")
 const countryCode = "+976"
