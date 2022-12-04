@@ -5,7 +5,7 @@ console.log(randNum)
 let input = Number(prompt("Guess the number from 1 to 100."))
 
 while ( input != randNum) {
-    if (input >12 randNum) {
+    if (input > randNum) {
         console.log("Your number is higher than the random number.")
     } else {
         console.log("Your number is lower than the random number.")
