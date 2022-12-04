@@ -5,8 +5,10 @@ console.log(randNum)
 let input = Number(prompt("Guess the number from 1 to 100."))
 
 while ( input != randNum) {
-    if (input.length == 3 ) {
-        input = Number(prompt("Invalid input. Please enter a number from 1 to 100"))
+    if (input >12 randNum) {
+        console.log("Your number is higher than the random number.")
+    } else {
+        console.log("Your number is lower than the random number.")
     }
     input = Number(prompt("Guess again"))
 } 
