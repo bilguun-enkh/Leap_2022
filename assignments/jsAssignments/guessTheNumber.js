@@ -1,5 +1,5 @@
 
-let randNum = Math.floor(Math.random() * 100) + 1
+let randNum = Math.ceil(Math.random() * 100)
 console.log(randNum)
 
 let input = Number(prompt("Guess the number from 1 to 100."))
