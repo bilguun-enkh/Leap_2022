@@ -110,3 +110,4 @@ let popFunc = (array) => {
 
 const popArray = [1, 2, 3]
 console.log(popFunc([12,4,3,5,6]))
+
