@@ -3,7 +3,7 @@ let rabbit1 = {
     rName: "Chandaga",
     gender: "Male",
     age: 2,
-    jump: function () {
+    jump: function() {
         console.log("Sorry, I broke my leg. I cannot jump.")
     },
     sayMyName: function () {
@@ -16,14 +16,14 @@ console.log(rabbit1.rName)
 rabbit1.color = 'Brown'
 console.log(rabbit1.color)
 rabbit1.jump()
-rabbit1.sayMyName("Khangaikhuu")
+rabbit1.sayMyName()
 
 let rabbit2 = {
     color: "Indigo",
     rName: "Unibunny",
     gender: "female",
     age: 205,
-    jump: function () {
+    jump: function() {
         console.log("I can jump")
     }
 }
