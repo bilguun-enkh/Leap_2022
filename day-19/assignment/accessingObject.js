@@ -60,21 +60,21 @@ console.log(students)
 
 
 function sameAge(object) {
-    let array1 = []
+    let array19 = []
+    let array21 = []
+    let array23 = []
     for (let i = 0; i < object.length; i++) {
-        array1.push(object[i])
-        for (let j = i + 1; j < object.length - 1; j++) {
-            if (object[i].age == object[j].age) {
-                array1.push(object[j])
-            }
-            else {
-                let array = [object[j]]
-            }
+        if (object[i].age == 19) {
+            array19.push(object[i])
+        } else if (object[i].age == 21) {
+            array21.push(object[i])
+        } else {
+            array23.push(object[i])
         }
     }
-    
-    console.log(array1)
-
+    console.log(array19)
+    console.log(array21)
+    console.log(array23)
 }
+
 sameAge(students)
-console.log()
