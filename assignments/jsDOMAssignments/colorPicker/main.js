@@ -17,7 +17,7 @@ function makeGreen() {
     bodyColor.style = "background-color: #198754"
 }
 function makeGrey() {
-    bodyColor.style = "background-color: #198754"
+    bodyColor.style = "background-color: #6c757d"
 }
 function makeYellow() {
     bodyColor.style = "background-color: #ffc107"
