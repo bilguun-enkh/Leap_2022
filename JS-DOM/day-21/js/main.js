@@ -12,18 +12,16 @@ function validation(inputs) {
     if (password.value === repeatPass.value) {
         passTrue = 1
     }
-
     if (password.value.length > 8 && repeatPass.value.length > 8) {
         passLength = 1
     }
     let email = inputs.email
     if (email.value.includes("@") && email.value.includes(".")) {
         emailInc = 1
-    }Ï
+    }
     if (emailInc == 1 && passLength == 1 && passTrue == 1) {
         return true
     }
-
     //жишээ хэрэглээ
     console.log("Email input ийн урт: ", inputs.email.value.length);
     return false;
