@@ -10,25 +10,16 @@ function validation(inputs) {
     let passLength = 0
     let emailInc = 0
     if (password.value === repeatPass.value) {
-        console.log("pass same")
         passTrue = 1
-    } else {
-        console.log("pass diff")
     }
 
     if (password.value.length > 8 && repeatPass.value.length > 8) {
-        console.log("pass more than 8")
         passLength = 1
-    } else {
-        console.log("less than 8")
     }
     let email = inputs.email
     if (email.value.includes("@") && email.value.includes(".")) {
-        console.log("pass")
         emailInc = 1
-    } else {
-        console.log("fail")
-    }
+    }Ï
     if (emailInc == 1 && passLength == 1 && passTrue == 1) {
         return true
     }
